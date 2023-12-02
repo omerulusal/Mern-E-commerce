@@ -1,0 +1,2 @@
+backend ile baglantı yapmak istedigimden package.json dosyama bu kodu verdim. 
+"proxy":"http://localhost:4000",

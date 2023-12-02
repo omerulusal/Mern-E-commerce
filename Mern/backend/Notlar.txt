@@ -1,0 +1,15 @@
+---->BACKEND İLK KURULUMLAR
+npm i express nodemon cookie-parser body-parser validator cors nodemailer bcryptjs jsonwebtoken dotenv mongoose cloudinary
+
+
+kurulumdan sonra package.jsonda scriptste "test": yazan yeri ----> "start": "nodemon index.js" olarak degistirdim.
+
+// JSON verilerini işlemek için "body-parser" kullanır.
+
+
+---app.use(cors());---
+// CORS Cross Origin Resource Sharing gvelik politikalarını atlayarak gelen isteklere izin veren middlewaredir.
+
+//Mongo Atlas Data Base e baglanmak icin
+mongodb+srv://omer:<Password>@cluster0.o0ko3au.mongodb.net/
+<Password> alanına data base deki kullanıcının sifresi girilmelidir.(DUzkJZXIIn5CHK3m)
