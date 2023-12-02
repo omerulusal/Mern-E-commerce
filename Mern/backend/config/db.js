@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const db = () => {
-    mongoose.connect('mongodb+srv://omer:DUzkJZXIIn5CHK3m@cluster0.o0ko3au.mongodb.net/', {
+    mongoose.connect('mongodb+srv://omer:"<Kendi Mongo Sifreni Gir>"@cluster0.o0ko3au.mongodb.net/', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     }).then(() => {
@@ -14,4 +14,3 @@ const db = () => {
 
 
 module.exports = db
-// export default function gibi calısır.
