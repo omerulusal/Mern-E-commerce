@@ -1,12 +1,11 @@
 # Mern-E-commerce
 
-!open terminal
-# Sources
-- [cd backend]
-- [npm install]
-- [npm start]
+#open terminal for server
+- cd backend
+- npm install
+- npm start
 
-new powershell > 
-cd frontend  
-npm install  
-npm run dev
+#open new terminal for client  
+- cd frontend  
+- npm install  
+- npm run dev
