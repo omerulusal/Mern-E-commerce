@@ -4,7 +4,6 @@ const jwt = require('jsonwebtoken')
 const cloudinary = require('cloudinary').v2;
 const crypto = require('crypto');
 const nodemailer = require('nodemailer');
-// const cookie = require('cookie-parser')
 
 
 const register = async (req, res) => {
@@ -89,6 +88,7 @@ const logout = async (req, res) => {
 
 const forgotPassword = async (req, res) => {
     let user = await User.findOne({ email: req.body.email });
+    // kişi şifresini unutmuşsa kişinin gonderdigi email degerini User modelinden bulmaya calışırım. 
     if (!user) {
         return res.status(500).json({
             message: "Bu mail adresine ait bir kullanici yoktur."

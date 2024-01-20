@@ -12,4 +12,4 @@ kurulumdan sonra package.jsonda scriptste "test": yazan yeri ----> "start": "nod
 
 //Mongo Atlas Data Base e baglanmak icin
 mongodb+srv://omer:<Password>@cluster0.o0ko3au.mongodb.net/
-<Password> alanına data base deki kullanıcının sifresi girilmelidir.(DUzkJZXIIn5CHK3m)
+<Password> alanına database deki kullanıcının sifresi girilmelidir.

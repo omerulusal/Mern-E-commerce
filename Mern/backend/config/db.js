@@ -12,5 +12,5 @@ const db = () => {
 }
 
 
-
 module.exports = db
+// Source: https://mongoosejs.com/docs/connections.html
