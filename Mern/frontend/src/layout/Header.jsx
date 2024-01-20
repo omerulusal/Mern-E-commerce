@@ -10,9 +10,9 @@ const Header = () => {
     const [openMenu, setOpenMenu] = useState(false)
     const [keyword, setKeyword] = useState("")
     const { user, isAuth } = useSelector(state => state.user)
-    const { carts } = useSelector(state => state.cart);
+    const { carts } = useSelector(state => state.cart);//store.js teki cart degiskenini cektim carts a atadim
     const navigate = useNavigate();
-    const dispatch = useDispatch();
+    const dispatch = useDispatch();//useDispatch, Redux eylemlerini tetiklemek için kullanılır.
     const menuOpen = () => {
         setOpenMenu(!openMenu)
     }

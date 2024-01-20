@@ -1,2 +1,6 @@
 backend ile baglantı yapmak istedigimden package.json dosyama bu kodu verdim. 
 "proxy":"http://localhost:4000",
+
+
+useSelector ile store icerisinde tanımladıgım sliceları kullanırım
+dispatch ile actionlari kullanırım.

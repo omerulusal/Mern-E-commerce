@@ -99,7 +99,7 @@ const forgotPassword = async (req, res) => {
     user.resetPasswordExpire = Date.now() + 5 * 60 * 1000;
     await user.save({ validateBeforeSave: false })
     const passwordUrl = `${req.protocol}://${req.get('host')}/reset/${resetToken}`
-    const message = `Sifreni ifirlamamk icin kullanicagin token: ${passwordUrl}`
+    const message = `Sifreni sifirlamak icin kullanicagin token: ${passwordUrl}`
     try {
         // bu try yapisini nodemailer sitesinden kopyaladim
         const transporter = nodemailer.createTransport({
